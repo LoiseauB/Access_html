@@ -1,0 +1,173 @@
+html {
+  background: url('../img/congruent_pentagon.png');
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+article {
+  color: #000000;
+  min-height: 256px;
+}
+article.col1 { 
+  width: 256px;
+  background-color: rgba(185, 185, 185, 0.50);
+  padding: 1rem;
+  margin: 2rem;
+  border-radius: 30px;
+  box-shadow: 2px 5px 15px 5px rgba(0,0,0,0.1);
+ }
+
+article.col2 {
+  margin-bottom: 3rem;
+  padding-inline: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
+
+article a:link,
+article a:visited {
+  color: orange;
+  text-decoration: none;
+}
+
+article > .content {
+  padding: 2rem;
+}
+article h1:first-child {
+  margin-top: 0;
+}
+
+/*.member-unit {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: rgba(62, 120, 66, 0.7);
+  opacity: 0;
+  transition: opacity 600ms;
+}
+.member-unit:hover {
+  opacity: 1;
+  transition: opacity 600ms;
+}
+*/
+.member-unit > h1 {
+  margin: 0;
+  font-family: Georgia, serif;
+}
+.member-unit > h1 > small {
+  font-size: 1rem;
+  font-weight: normal;
+}
+.member-unit > p {
+  margin: 0;
+  font-size: 0.8125rem;
+}
+/*.member-unit .socials a {
+  margin-top: .4rem;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
+  border-radius: 50%;
+  text-indent: -9999px;
+}
+*/
+.member-photo {
+  max-width: 100%;
+}
+
+#join {
+  background-color: #00C2FF;
+}
+
+header{
+  width: 100%;
+}
+
+.navbar{
+  background-color: rgba(185, 185, 185, 0.25);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.link-container{
+  margin-right: 2%;
+  display: flex;
+  align-items: center;
+
+}
+
+.navlink{
+  margin-right: 25%;
+  margin-left: 25%;
+}
+
+a:link,
+a:visited{
+  color: #000000;
+  text-decoration: none;
+}
+
+img{
+  border-radius: 30px;
+  margin-top: 2rem;
+}
+
+.page-title{
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+form{
+  margin: 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+input{
+  padding-bottom: 1rem;
+}
+#description{
+  padding-bottom: 5rem;
+  padding-right:10rem ;
+}
+
+.col2 button{
+  padding: 1rem;
+}
+
+.names{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.names input{
+  padding-left: 5rem;
+}
+
+.input{
+  margin: 1rem;
+}
